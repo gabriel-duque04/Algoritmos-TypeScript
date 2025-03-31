@@ -1,5 +1,4 @@
-# Algoritmos-TypeScript
-Começo dos meus estudos em typescript, algoritmos de ordenação e de pesquisa
+
 **Aplicativos de console em typescript**
 
 Este repositório é apenas um showroom começo dos meus estudos em typescript
