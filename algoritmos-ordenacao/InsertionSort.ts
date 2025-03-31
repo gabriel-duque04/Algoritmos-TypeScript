@@ -9,16 +9,16 @@ function InsertionSort(array: number[]){
         array[j + 1] = temp;
     }
 }
-let vector = [1,9,8,7,3,2,5,6,4]
+let insertionarray = [1,9,8,7,3,2,5,6,4]
 
-for(let i = 0; i< vector.length ; i++){
-    console.log(vector[i]);
+for(let i = 0; i< insertionarray.length ; i++){
+    console.log(insertionarray[i]);
 }
 console.log("\n");
-InsertionSort(vector);
+InsertionSort(insertionarray);
 
 
 
-for(let i = 0; i< vector.length ; i++){
-    console.log(vector[i]);
+for(let i = 0; i< insertionarray.length ; i++){
+    console.log(insertionarray[i]);
 }

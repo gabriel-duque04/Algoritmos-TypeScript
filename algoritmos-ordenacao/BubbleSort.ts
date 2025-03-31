@@ -10,16 +10,16 @@ function BubbleSort(array: number[]){
     }
 }
 
-let array = [1,9,8,7,3,2,5,6,4]
+let bubblearray = [1,9,8,7,3,2,5,6,4]
 
-for(let i = 0; i< array.length ; i++){
-    console.log(array[i]);
+for(let i = 0; i< bubblearray.length ; i++){
+    console.log(bubblearray[i]);
 }
 console.log("\n");
-BubbleSort(array);
+BubbleSort(bubblearray);
 
 
 
-for(let i = 0; i< array.length ; i++){
-    console.log(array[i]);
+for(let i = 0; i< bubblearray.length ; i++){
+    console.log(bubblearray[i]);
 }

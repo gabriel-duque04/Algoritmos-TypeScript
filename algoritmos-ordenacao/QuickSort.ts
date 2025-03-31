@@ -11,7 +11,7 @@ function QuickSort(array: number [], left: number, right: number){
     if (x<=y){
         let temp = array[x];
         array[x] = array[y];
-        
+
         array[y] = temp;
         x++;
         y--;
@@ -25,16 +25,16 @@ function QuickSort(array: number [], left: number, right: number){
 }
 
 
-let numbers = [1,9,8,7,3,2,5,6,4]
+let quickarray = [1,9,8,7,3,2,5,6,4]
 
-for(let i = 0; i< numbers.length ; i++){
-    console.log(numbers[i]);
+for(let i = 0; i< quickarray.length ; i++){
+    console.log(quickarray[i]);
 }
 console.log("\n");
-QuickSort(numbers,0,numbers.length - 1);
+QuickSort(quickarray,0,quickarray.length - 1);
 
 
 
-for(let i = 0; i< numbers.length ; i++){
-    console.log(numbers[i]);
+for(let i = 0; i< quickarray.length ; i++){
+    console.log(quickarray[i]);
 }
